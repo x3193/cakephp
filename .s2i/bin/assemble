@@ -1,9 +1,5 @@
 #!/bin/bash -e
 
-id -un
-cat /etc/passwd
-#sudo ls -l
-
 if [ -e /usr/local/sti/assemble ]; then
   # old assemble location in previous php image versions
   source /usr/local/sti/assemble
